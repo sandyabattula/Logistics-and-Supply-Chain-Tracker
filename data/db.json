@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": "USR-01",
+      "username": "admin",
+      "salt": "6ccaeb7a2436406780be2bf14db8f47b",
+      "passwordHash": "99a2223e7f300f1e55d5a10cd15b70f6fbe49b20aeb01787bc49863d7b21c2aa",
+      "createdAt": "2026-06-23T15:13:29.517Z"
+    },
+    {
+      "id": "USR-2",
+      "username": "sandy",
+      "salt": "6fcdd92d9a85a61c629764ac2ac8dab5",
+      "passwordHash": "4a5b10e0d6bf4af28749c871a6b879179f585b68e0a39c03cf91a13803bebee3",
+      "createdAt": "2026-06-23T15:17:01.337Z"
+    }
+  ],
+  "shipments": [
+    {
+      "id": "SH-1001",
+      "originName": "Manhattan Depot (W-1)",
+      "originCoords": [
+        40.758,
+        -73.9855
+      ],
+      "destinationName": "Alice Johnson (NoHo)",
+      "destinationCoords": [
+        40.7282,
+        -73.9942
+      ],
+      "consumerName": "Alice Johnson",
+      "courierId": "CR-01",
+      "status": "In Transit",
+      "signatureUrl": null,
+      "createdAt": "2026-06-23T10:00:00.000Z"
+    },
+    {
+      "id": "SH-1002",
+      "originName": "Brooklyn Hub (W-2)",
+      "originCoords": [
+        40.6976,
+        -73.9796
+      ],
+      "destinationName": "Bob Smith (Crown Heights)",
+      "destinationCoords": [
+        40.6782,
+        -73.9442
+      ],
+      "consumerName": "Bob Smith",
+      "courierId": "CR-02",
+      "status": "Pending",
+      "signatureUrl": null,
+      "createdAt": "2026-06-23T11:15:00.000Z"
+    },
+    {
+      "id": "SH-1003",
+      "originName": "Queens Logistics (W-3)",
+      "originCoords": [
+        40.742,
+        -73.879
+      ],
+      "destinationName": "Charlie Brown (DUMBO)",
+      "destinationCoords": [
+        40.7061,
+        -73.9969
+      ],
+      "consumerName": "Charlie Brown",
+      "courierId": "CR-03",
+      "status": "Out for Delivery",
+      "signatureUrl": null,
+      "createdAt": "2026-06-23T09:30:00.000Z"
+    },
+    {
+      "id": "SH-1004",
+      "originName": "Manhattan Depot (W-1)",
+      "originCoords": [
+        40.758,
+        -73.9855
+      ],
+      "destinationName": "Diana Prince (Midtown East)",
+      "destinationCoords": [
+        40.7648,
+        -73.9808
+      ],
+      "consumerName": "Diana Prince",
+      "courierId": null,
+      "status": "Pending",
+      "signatureUrl": null,
+      "createdAt": "2026-06-23T14:00:00.000Z"
+    },
+    {
+      "id": "SH-1005",
+      "originName": "Brooklyn Hub (W-2)",
+      "originCoords": [
+        40.6976,
+        -73.9796
+      ],
+      "destinationName": "Evan Wright (Financial District)",
+      "destinationCoords": [
+        40.7075,
+        -74.0112
+      ],
+      "consumerName": "Evan Wright",
+      "courierId": "CR-01",
+      "status": "Delivered",
+      "signatureUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+      "createdAt": "2026-06-23T08:00:00.000Z"
+    },
+    {
+      "id": "SH-1006",
+      "originName": "Brooklyn Hub (W-2)",
+      "originCoords": [
+        40.6976,
+        -73.9796
+      ],
+      "destinationName": "Sandy Residence",
+      "destinationCoords": [
+        51.36,
+        -72
+      ],
+      "consumerName": "Sandy",
+      "courierId": null,
+      "status": "Out for Delivery",
+      "signatureUrl": null,
+      "createdAt": "2026-06-23T15:23:24.296Z"
+    }
+  ],
+  "couriers": [
+    {
+      "id": "CR-01",
+      "name": "David Miller",
+      "phone": "+1 (555) 019-2834",
+      "vehicleType": "Electric Van",
+      "status": "On Delivery"
+    },
+    {
+      "id": "CR-02",
+      "name": "Sarah Connor",
+      "phone": "+1 (555) 014-9988",
+      "vehicleType": "E-Bike",
+      "status": "Available"
+    },
+    {
+      "id": "CR-03",
+      "name": "Marcus Aurelius",
+      "phone": "+1 (555) 012-3456",
+      "vehicleType": "Motorcycle",
+      "status": "On Delivery"
+    },
+    {
+      "id": "CR-04",
+      "name": "Emma Watson",
+      "phone": "+1 (555) 017-7755",
+      "vehicleType": "Electric Van",
+      "status": "Offline"
+    },
+    {
+      "id": "CR-05",
+      "name": "Sandy",
+      "phone": "+1 55567",
+      "vehicleType": "E-Bike",
+      "status": "Available"
+    }
+  ]
+}
