@@ -103,3 +103,49 @@ Demo/
 ├── package.json              # NPM dependencies & test scripts
 └── README.md                 # Project Documentation
 ```
+## 📸 Application Screenshots
+
+### 🔐 Registration Page
+![Registration](images/r.PNG)
+
+### 🔑 Login Page
+![Login](images/l.PNG)
+
+### 📊 Dashboard Overview
+![Dashboard](images/d.PNG)
+
+### 🚚 Courier Management
+![Courier Management](images/co.PNG)
+
+### 📋 Shipment List
+![Shipment List](images/list.png)
+
+### 📍 Route & Location Tracking
+![Route Tracking](images/sea.PNG)
+
+### 📦 New Shipment Creation
+![New Shipment](images/n.PNG)
+
+### 📈 Courier Status Management
+![Courier Status](images/cs.PNG)
+
+---
+
+## 🖼️ More Screenshots
+
+For additional application outputs and UI previews, please refer to the **images** folder.
+
+📁 **images/**
+
+The folder contains screenshots covering:
+- User Registration
+- User Login
+- Dashboard Analytics
+- Shipment Tracking
+- Route Visualization
+- Courier Management
+- Delivery Status Updates
+- Search & Filtering Features
+- Responsive UI Components
+
+> For a complete visual walkthrough of the application, browse the screenshots available in the `images/` directory.
